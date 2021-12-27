@@ -2315,24 +2315,26 @@ anunya = process.uptime()
 ini_anu =`${ucapannya2}
 
 ╭─❒ 「 Bot Info 」 
-├ Creator :  @${koko.split('@')[0]}
-├ Powered  : @${ini_mark.split('@')[0]}
-├ Prefix :   ${prefix}
-├ Total hit : ${require('util').inspect(hitall(sender))}
-├ Hit today : ${hit_today.length}
-├ Speed : ${latensii.toFixed(4)} Second
-├ Hostname : ${os.hostname()}
-├ Platform : ${os.platform()}
-├ Runtime : ${(kyun(os.uptime()))}
-├ Battery : ${isBattre}
-╰❒ Charging : ${isCharge}
+├ 🤴Creator :  @${koko.split('@')[0]}
+├ 📱Powered  : @${ini_mark.split('@')[0]}
+├ ⁉️Prefix :   ${prefix}
+├ ✳️Total hit : ${require('util').inspect(hitall(sender))}
+├ ❇️Hit today : ${hit_today.length}
+├ 🏃Speed : ${latensii.toFixed(4)} Second
+├ 🤵Hostname : ${os.hostname()}
+├ ♨️Platform : ${os.platform()}
+├ ⏰Runtime : ${(kyun(os.uptime()))}
+├ 📱Battery : ${isBattre}
+├ ⛔Charging : ${isCharge}
+╰❒
 
 ╭─❒ 「 User Info 」 
-├ Name : ${pushname}
-├ Bio : ${p1 ? `${p1.status}` : '-'}
-├ Nomor : @${sender.split('@')[0]}
-├ Me : ${mek.key.fromMe ? 'True' : 'False'}
-╰❒ Owner : ${isOwner ? 'True' : `False`}
+├ 📛Name : ${pushname}
+├ 💌Bio : ${p1 ? `${p1.status}` : '-'}
+├ #️⃣Nomor : @${sender.split('@')[0]}
+├ 🧑Me : ${mek.key.fromMe ? 'True' : 'False'}
+├ 🤴Owner : ${isOwner ? 'True' : `False`}
+╰❒
 `
 if(typemenu == 'document'){
 sendButDoc(from, ini_anu, `Please Don't spam bot, pause 3 seconds per command!\n`, sender, koko, ini_mark)
