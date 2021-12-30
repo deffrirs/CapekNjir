@@ -4062,12 +4062,10 @@ if (!isGroup) return reply(lang.onlygc())
 					}
 					mentions(teks, groupAdmins, true)
 					break
-			
-			case 'tagall':
+                        case 'tagall':
 			if (!isGroup) return reply(lang.onlygc())
 					if (!isGroupAdmins) return reply(lang.onlygcAdmin())
 					if (!isBotGroupAdmins) return reply(lang.botNotAdm())       
-			if (!mek.key.fromMe && !isOwner && !isCreator) return reply(lang.onlyOwner())
 			        if (!isGroup) return reply(lang.onlygc())
 					if (!isGroupAdmins) return reply(lang.onlygcAdmin())
 					if (!isBotGroupAdmins) return reply(lang.botNotAdm())       
@@ -4080,7 +4078,7 @@ if (!isGroup) return reply(lang.onlygc())
 					}
 					mentions(teks, members_id, true)
 					break
-
+			
 			case 'clearall':
 			        if (!mek.key.fromMe && !isOwner && !isCreator) return reply(lang.onlyOwner())
 			        anu = await alpha.chats.all()
