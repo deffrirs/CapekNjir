@@ -2241,10 +2241,11 @@ reply(`Pembeliaan game limit sebanyak ${q} berhasil
 }
 break
 	case 'me': case 'myinfo': case 'info': case 'profile': case 'profil':{
-let cek = ms( await premium.getPremiumExpired(sender, premium) - Date.now())
-let userProcfile = `「 *USER INFO* 」
+let cek = ms( await premium.getPremiumExpired
+📛 Nama : ${pushname}(sender, premium) - Date.now())
+let userProcfile = `Hai Kak ${pushname} Selamat tahun Baru
+「 *USER INFO* 」
 
-📛 Nama : ${pushname}
 💋 Bio : ${bio_user}
 🔗 Tag : @${sender.split("@")[0]}
 💥 Api : wa.me/${sender.split("@")[0]}
@@ -2313,6 +2314,8 @@ let bacotlu = media.message["ephemeralMessage"] ? media.message.ephemeralMessage
 let p1 = await alpha.getStatus(sender)
 anunya = process.uptime()
 ini_anu =`${ucapannya2}
+
+Hai Kak ${pushname} Selamat tahun Baru
 
 ╭─❒ 「 Bot Info 」 
 ├ 🤴Creator :  @${koko.split('@')[0]}
