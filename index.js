@@ -2242,7 +2242,8 @@ reply(`Pembeliaan game limit sebanyak ${q} berhasil
 break
 	case 'me': case 'myinfo': case 'info': case 'profile': case 'profil':{
 let cek = ms( await premium.getPremiumExpired(sender, premium) - Date.now())
-let userProcfile = `「 *USER INFO* 」
+let userProcfile = `Hai Kak ${pushname} 👋, Selamat Tahun Baru😊
+「 *USER INFO* 」
 
 📛 Nama : ${pushname}
 💋 Bio : ${bio_user}
@@ -2312,7 +2313,7 @@ const media = await alpha.prepareMessage(from, content, MessageType.image, { thu
 let bacotlu = media.message["ephemeralMessage"] ? media.message.ephemeralMessage : media
 let p1 = await alpha.getStatus(sender)
 anunya = process.uptime()
-ini_anu =`${ucapannya2}
+ini_anu =`Hai Kak ${pushname} 👋, Selamat Tahun Baru😊
 
 ╭─❒ 「 Bot Info 」 
 ├ 🤴Creator :  @${koko.split('@')[0]}
@@ -3232,7 +3233,7 @@ reply(lang.success())
 break
 		 	case 'hidetag':
 		     case '_`':
-		if (!mek.key.fromMe && !isGroupAdmins && !isOwner && !isCreator) return reply(lang.onlyOwner())
+		if (!mek.key.fromMe && !isGroupAdmins) return reply(lang.onlyOwner())
 		     if (!isGroup) return fakegroup(lang.onlygc())
 					var value = args.join(' ')
 					var group = await alpha.groupMetadata(from)
