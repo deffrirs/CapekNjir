@@ -5,7 +5,10 @@
 	あ YANG BELUM PAHAM CAR RUN DI HEROKU TONTON AJA VIDEO SEBELUMNYA
 	あ FITUR JUALAN TELAH DI HAPUS [ Bisa order sama saya klo mau ]
 	
-	あ JASA RUN HEROKU BISA PC wa.me/62887435047326 BIAR BOT NYA GAK TERLALU DELAY
+	あsc by: Zeeone ofc
+	あ DEFFBOTz :Repost
+	
+	あ JASA RUN HEROKU BISA PC wa.me/6282132805286 BIAR BOT NYA GAK TERLALU DELAY
 	
 */   
 const
@@ -2313,7 +2316,7 @@ const media = await alpha.prepareMessage(from, content, MessageType.image, { thu
 let bacotlu = media.message["ephemeralMessage"] ? media.message.ephemeralMessage : media
 let p1 = await alpha.getStatus(sender)
 anunya = process.uptime()
-ini_anu =`Hai Kak ${pushname} 👋, Selamat Tahun Baru😊
+ini_anu =`${ucapannya2} ${pushname} 👋
 
 ╭─❒ 「 Bot Info 」 
 ├ 🤴Creator :  @${koko.split('@')[0]}
@@ -3081,7 +3084,6 @@ await limitAdd(sender, limit)
 			case 'stikerwm':
 			case 'stickerwm':
 		    case 'swm':
-		if (!isPremium) return sendButMessage(from, `Mohon maaf fitur ini khusus untuk user premium saja! Upgrade akun mu sekarang dengan cara ketik ${prefix}goprem`, `Click button below`, [{buttonId: 'goprem',buttonText: {displayText: `Upgrade Premium`,},type: 1,}],{quoted:mek});
 		            pe = args.join('')
 		            var a = pe.split("|")[0];
 		            var b = pe.split("|")[1];
