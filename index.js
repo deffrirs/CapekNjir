@@ -2245,7 +2245,7 @@ reply(`Pembeliaan game limit sebanyak ${q} berhasil
 break
 	case 'me': case 'myinfo': case 'info': case 'profile': case 'profil':{
 let cek = ms( await premium.getPremiumExpired(sender, premium) - Date.now())
-let userProcfile = `Hai Kak ${pushname} 👋, Selamat Tahun Baru😊
+let userProcfile = `${ucapannya2}
 「 *USER INFO* 」
 
 📛 Nama : ${pushname}
@@ -2316,7 +2316,7 @@ const media = await alpha.prepareMessage(from, content, MessageType.image, { thu
 let bacotlu = media.message["ephemeralMessage"] ? media.message.ephemeralMessage : media
 let p1 = await alpha.getStatus(sender)
 anunya = process.uptime()
-ini_anu =`${ucapannya2} ${pushname} 👋
+ini_anu =`${ucapannya2} 👋
 
 ╭─❒ 「 Bot Info 」 
 ├ 🤴Creator :  @${koko.split('@')[0]}
