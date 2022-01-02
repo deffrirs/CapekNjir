@@ -2854,7 +2854,6 @@ await limitAdd(sender, limit)
 					break   
 		    case 'totag':
 		            if (!isGroupAdmins) return reply(lang.onlygcAdmin())
-					if (!isOwner && !isCreator) return reply(lang.onlyOwner())
 		            if ((isMedia && !mek.message.videoMessage || isQuotedSticker) && args.length == 0) {
 		            encmedia = isQuotedSticker ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
 		            file = await alpha.downloadAndSaveMediaMessage(encmedia, filename = getRandom())
